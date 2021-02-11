@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CameraXActivity">
+
+
+    <com.facedetection.camerax.FaceDetectionView
+        android:id="@+id/faceDetectionView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:captureIcon="@drawable/camera_capture48"
+        app:flipIcon="@drawable/switch_camera_48"
+        app:strokeWidth="2dp"
+        app:strokeColor="@color/colorAccent"
+        >
+
+    </com.facedetection.camerax.FaceDetectionView>
+
+</FrameLayout>
