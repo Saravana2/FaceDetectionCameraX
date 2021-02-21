@@ -11,7 +11,7 @@ Move your config file into the module (app-level) directory of your app.
  Refer:https://firebase.google.com/docs/android/setup
 
 ### Then Run the App
-you can listen to FaceDetectionView for call backs
+you can use FaceDetectionListener to FaceDetectionView for call backs
 
 ```sh
  interface FaceDetectionListener {
